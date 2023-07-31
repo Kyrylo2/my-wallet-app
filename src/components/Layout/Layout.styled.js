@@ -100,6 +100,12 @@ export const HeaderContainer = styled.header`
     display: flex;
     gap: 10px;
   }
+
+  & img {
+    min-width: 100px;
+    width: fit-content;
+    max-width: 250px;
+  }
 `;
 
 export const MainContainer = styled.main`
@@ -126,42 +132,30 @@ export const Logo = styled(NavLink)`
   font-weight: 700;
   margin: 0;
   color: white;
+
+  width: min-content;
+`;
+
+const link_button_base_style = `
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+
+  color: ${purple[50]};
+  font-weight: 400;
+  border: 1px solid ${purple[200]};
+
+  &.active,
+  &:hover {
+    color: #fff9f9;
+    background-color: ${purple[600]};
+
+    border: 1px solid ${purple[600]};
+  }
 `;
 
 export const Link = styled(NavLink)`
-  padding: 8px 16px;
-  border-radius: 4px;
-  font-size: 14px;
-  font-weight: 400;
-  text-decoration: none;
-
-  color: ${purple[50]};
-  font-weight: 400;
-  border: 1px solid ${purple[200]};
-
-  &.active {
-    color: #fff9f9;
-    background-color: ${purple[600]};
-    border: none;
-  }
-`;
-
-export const Button = styled.button`
-  padding: 8px 16px;
-  border-radius: 4px;
-  font-size: 14px;
-  font-weight: 400;
-  text-decoration: none;
-
-  color: ${purple[50]};
-  font-weight: 400;
-  border: 1px solid ${purple[200]};
-  background-color: transparent;
-
-  &.active,
-  &.hover {
-    color: #fff9f9;
-    background-color: ${purple[600]};
-    border: none;
-  }
+  ${link_button_base_style}
 `;

@@ -8,11 +8,11 @@ import {
   HomeTextMain,
   HomeTextSecondary,
 } from './Home.styled';
-import { Button, Link } from '@mui/material';
+import { Button, Link } from '@mui/joy';
 import { purple } from '@mui/material/colors';
 import { NavLink } from 'react-router-dom';
 
-import WalletImage from '../../assets/img_wallet.webp';
+import WalletImage from '../../assets/images/HomeImages/img_wallet.webp';
 
 const Home = () => {
   return (
@@ -31,7 +31,7 @@ const Home = () => {
         {/* <HomeTextAction>Start your exciting journey now!</HomeTextAction> */}
         <Button
           component={NavLink}
-          to="/wallet"
+          to="/tweets"
           variant="outlined"
           sx={{
             // m: 1,

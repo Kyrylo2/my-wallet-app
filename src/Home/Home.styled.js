@@ -17,7 +17,6 @@ export const HomeContainer = styled.div`
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  text-align: left;
 `;
 
 export const HomeHeroContainer = styled.div`

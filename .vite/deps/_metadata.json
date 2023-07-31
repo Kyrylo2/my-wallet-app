@@ -1,0 +1,95 @@
+{
+  "hash": "424c1215",
+  "browserHash": "26120af7",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "4e648a1a",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "8cf3ce81",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "d0b745d8",
+      "needsInterop": false
+    },
+    "ethers": {
+      "src": "../../node_modules/ethers/lib.esm/index.js",
+      "file": "ethers.js",
+      "fileHash": "f2936793",
+      "needsInterop": false
+    },
+    "react-toastify": {
+      "src": "../../node_modules/react-toastify/dist/react-toastify.esm.mjs",
+      "file": "react-toastify.js",
+      "fileHash": "33db7774",
+      "needsInterop": false
+    },
+    "@mui/material/Button": {
+      "src": "../../node_modules/@mui/material/Button/index.js",
+      "file": "@mui_material_Button.js",
+      "fileHash": "00a6dd32",
+      "needsInterop": false
+    },
+    "@mui/lab": {
+      "src": "../../node_modules/@mui/lab/index.js",
+      "file": "@mui_lab.js",
+      "fileHash": "6302c817",
+      "needsInterop": false
+    },
+    "@mui/material/colors": {
+      "src": "../../node_modules/@mui/material/colors/index.js",
+      "file": "@mui_material_colors.js",
+      "fileHash": "c26694af",
+      "needsInterop": false
+    },
+    "@mui/material": {
+      "src": "../../node_modules/@mui/material/index.js",
+      "file": "@mui_material.js",
+      "fileHash": "1aa1ef55",
+      "needsInterop": false
+    },
+    "styled-components": {
+      "src": "../../node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "file": "styled-components.js",
+      "fileHash": "dd5e75f1",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-FJZUGKPZ": {
+      "file": "chunk-FJZUGKPZ.js"
+    },
+    "chunk-C646WBOU": {
+      "file": "chunk-C646WBOU.js"
+    },
+    "chunk-W4TI35DA": {
+      "file": "chunk-W4TI35DA.js"
+    },
+    "chunk-ZVSVQ6MR": {
+      "file": "chunk-ZVSVQ6MR.js"
+    },
+    "chunk-4N56JLVL": {
+      "file": "chunk-4N56JLVL.js"
+    },
+    "chunk-VJU3K2M7": {
+      "file": "chunk-VJU3K2M7.js"
+    },
+    "chunk-45VQMDST": {
+      "file": "chunk-45VQMDST.js"
+    },
+    "chunk-ZSEW566P": {
+      "file": "chunk-ZSEW566P.js"
+    },
+    "chunk-QY3AG7D4": {
+      "file": "chunk-QY3AG7D4.js"
+    }
+  }
+}
